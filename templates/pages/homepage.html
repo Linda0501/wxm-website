@@ -1,31 +1,32 @@
-<!DOCTYPE html>
+{% load staticfiles %}
+
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css"
-        href="assets/css/homepage.css">
+        href="{% static 'assets/css/homepage.css' %}">
 	</head>
 <body>
 	<div id="topbar">
 		<div class="navbar-item">
-			<img src = "assets/images/logo.jpg" align = "left">
-		</div> 
-		<div class="navbar-item"><img src = "assets/images/facebook.png"></div>
-		<div class="navbar-item"><img src = "assets/images/instagram.png"></div>
-		<div class="navbar-item"><img src = "assets/images/slack.png"></div>
-		<div class="navbar-item"><img src = "assets/images/linkedin.png"></div>
-		<div class="navbar-item"><img src = "assets/images/gmail.png"></div>
+			<img src = "static/assets/images/logo.jpg" align = "left">
+		</div>
+		<div class="navbar-item"><img src = "static/assets/images/facebook.png"></div>
+		<div class="navbar-item"><img src = "static/assets/images/instagram.png"></div>
+		<div class="navbar-item"><img src = "static/assets/images/slack.png"></div>
+		<div class="navbar-item"><img src = "static/assets/images/linkedin.png"></div>
+		<div class="navbar-item"><img src = "static/assets/images/gmail.png"></div>
 		<div class="navbar-item"> Home </div>
 		<div class="navbar-item"> About WIM </div>
 		<div class="navbar-item"> Events </div>
 		<div class="navbar-item"> Resources </div>
 		<div class = "navbar-item">
-			<img src="assets/images/search.png"> </div>
+			<img src="static/assets/images/search.png"> </div>
 		<div class = "navbar-item">	
 			<input type="text" placeholder="Search">
 		</div>
 	</div>
 	<div id="mainphoto">
-		<img src = "assets/images/homepage/Everyone.jpg"> 
+		<img src = "static/assets/images/homepage/Everyone.jpg">
 		<div id="wim">
 			<div id="wxm"> WxM </div>
 			<div id="fullname"> Womxn in mathematics @ Berkeley</div>
@@ -42,20 +43,20 @@
 			<div id="whatwedo">
 				<div class="block">
 					<div class="icon">
-						<img src = "assets/images/homepage/graph.png"> 
+						<img src = "static/assets/images/homepage/graph.png">
 					</div>
 					<div class="icontitle"> Career Development </div>
 					</div>
 				</div>
 				<div class="block">
 					<div class="icon">
-						<img src = "assets/images/homepage/book.png">
+						<img src = "static/assets/images/homepage/book.png">
 					</div>
 					<div class="icontitle"> Academic Support </div>
 				</div>
 				<div class="block">
 					<div class="icon">
-						<img src = "assets/images/homepage/people.png">
+						<img src = "static/assets/images/homepage/people.png">
 					</div>
 					<div class="icontitle"> Community </div>
 				</div>
